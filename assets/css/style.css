@@ -120,6 +120,7 @@ p {
 
 .special {
 	font-family: 'Permanent Marker', cursive;
+	color: #fe019a;
 }
 
 .audiostyle {
@@ -593,7 +594,7 @@ textarea.error {
       transform: rotate(45deg);
       transform-origin: 100% 100%;
     }
-  
+
 img {
 	max-width:100%;
 	height:auto;
@@ -1799,7 +1800,7 @@ i.rating {
 
 /* 2.12 Contact */
 .contact {
-	color:#ffffff;
+	color:#15f4ee;
 }
 
 .contact .header-inherited {
@@ -1900,7 +1901,7 @@ a.contactEmailLink {
 }
 
 p.margin-top {
-	color: #fe019a;
+	color: #15f4ee;
 }
 /* Modal elements and styling */
 .modal {
