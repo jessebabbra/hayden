@@ -32,11 +32,27 @@ body {
 	height:100%;
 	color:#7a7a7a;
 	background:#ffffff;
-	font-family:"Lato","PT Sans",Helvetica,Arial,sans-serif;
+	font-family:"Dosis","PT Sans",Helvetica,Arial,serif;
 	font-size:17px;
 	text-align:center;
 }
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
 
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
 ::selection {
 	background:#1a1a1a;
 	color:#ffffff;
@@ -116,7 +132,7 @@ h5.light,
 h6.light,
 p.light,
 span.light {
-	color:#ffffff;
+	color:#fe019a;
 }
 
 a.normal,
@@ -423,8 +439,8 @@ button.button-large.border-dark {
 /* Light border for buttons */
 .border-light {
 	background:0!important;
-	color:#f0f0f0;
-	border:2px solid #f0f0f0;
+	/* color:#fbf8fd; */
+	border:2px solid #fbf8fd;
 	border-radius:50%;
 	outline:-2px;
 }
@@ -477,7 +493,7 @@ textarea {
 	height:40px;
 	display:block;
 	border:1px solid #cccccc;
-	background:#f0f0f0;
+	background:#fbf8fd;
 	font-family:"Lato","PT Sans",Helvetica,Arial,sans-serif;
 	font-size:15px;
 	padding-left:6px;
@@ -1182,7 +1198,7 @@ a i:hover {
 
 /* 2.3 Introduction */
 .introduction {
-	background:#f0f0f0;
+	background:#fbf8fd;
 	width:100%;
 	padding-top:60px;
 	padding-bottom:60px;
@@ -1276,7 +1292,7 @@ a i:hover {
 
 /* 2.5 Process */
 .process {
-	background:#f0f0f0;
+	background:#fbf8fd;
 	width:100%;
 	padding-top:60px;
 	padding-bottom:105px;
@@ -1471,7 +1487,7 @@ a.filter.dark:hover {
 .call-to-action,
 .contact-info.personal,
 .contact-info.business {
-	background:#f0f0f0;
+	background:#fbf8fd;
 }
 
 .contact-info.personal,
@@ -1555,7 +1571,7 @@ a.filter.dark:hover {
 
 /* 2.9 About me */
 .about-me {
-	background:#f0f0f0;
+	background:#fbf8fd;
 	padding-top:0;
 	padding-bottom:80px;
 }
@@ -1783,7 +1799,7 @@ a.contactEmailLink {
 /* Modal elements and styling */
 .modal {
 	width:460px;
-	background:#f0f0f0;
+	background:#fbf8fd;
 	position:fixed;
 	top:50%;
 	left:50%;
@@ -1863,15 +1879,15 @@ a.contactEmailLink {
 
 /* 3.2 Slider */
 .portfolio-slider-images {
-	background:#f0f0f0;
+	background:#fbf8fd;
 	width:100%;
 	padding-top:60px;
 	padding-bottom:60px;
 }
 
 #portfolio-slider ul li {
-	border-left:0px solid #f0f0f0;
-	border-right:0px solid #f0f0f0;
+	border-left:0px solid #fbf8fd;
+	border-right:0px solid #fbf8fd;
 }
 
 /* Arrow controls */
@@ -1931,7 +1947,7 @@ ol.controls li.current {
 .portfolio-details {
 	padding-top:60px;
 	padding-bottom:60px;
-	background:#f0f0f0;
+	background:#fbf8fd;
 }
 
 .portfolio-gallery {
