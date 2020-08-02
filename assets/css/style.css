@@ -113,6 +113,10 @@ p {
 	padding-top:15px;
 }
 
+.special {
+	font-family: 'Permanent Marker', cursive;
+}
+
 h1.dark,
 h2.dark,
 h3.dark,
@@ -137,7 +141,7 @@ span.light {
 
 a.normal,
 span.normal {
-	color:#787878;
+	color:#fe019a;
 }
 
 b,
@@ -721,7 +725,8 @@ hr {
 
 .text-ticker li {
 	font-weight:700;
-	color:#ffffff;
+	/* color:#ffffff; */
+	color: #fe019a;
 	letter-spacing:0.2em;
 	text-transform:uppercase;
 	line-height:50px;
