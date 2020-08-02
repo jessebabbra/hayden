@@ -307,7 +307,7 @@ i.large-icon:hover {
 }
 
 .button {
-	color:#ffffff;
+	color:##9370db;
 	background:#b59a61;
 	display:inline-block;
 	font-size:12px;
@@ -453,7 +453,7 @@ button.button-large.border-dark {
 .border-light {
 	background:0!important;
 	/* color:#fbf8fd; */
-	border:2px solid #fbf8fd;
+	border:2px solid #15f4ee;
 	border-radius:50%;
 	outline:-2px;
 }
@@ -569,6 +569,31 @@ textarea.error {
 }
 
 /* 1.6 General elements */
+
+    #heart {
+      position: relative;
+      width: 100px;
+      height: 90px;
+    }
+    #heart:before,
+    #heart:after {
+      position: absolute;
+      content: "";
+      left: 50px;
+      top: 0;
+      width: 50px;
+      height: 80px;
+      background: red;
+      border-radius: 50px 50px 0 0;
+      transform: rotate(-45deg);
+      transform-origin: 0 100%;
+    }
+    #heart:after {
+      left: 0;
+      transform: rotate(45deg);
+      transform-origin: 100% 100%;
+    }
+  
 img {
 	max-width:100%;
 	height:auto;
@@ -1177,8 +1202,8 @@ a i:hover {
 }
 
 .slides-pagination a {
-	color:#ffffff;
-	background:#ffffff;
+	color:#15f4ee;
+	background:#15f4ee;
 	filter:alpha(opacity=50);
 	opacity:0.5;
 	width:30px;
