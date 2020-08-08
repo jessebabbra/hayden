@@ -738,6 +738,7 @@ hr {
 	font-weight:700;
 	/* color:#ffffff; */
 	color: #fe019a;
+	 /* -webkit-text-stroke: 0.1px white; */
 	letter-spacing:0.2em;
 	text-transform:uppercase;
 	line-height:50px;
@@ -1349,7 +1350,7 @@ span.process-icon:hover {
 .portfolio {
 	padding-top:60px;
 	padding-bottom:80px;
-	background-color:#ffffff;
+	background-color:#fbf8fd;
 }
 
 a.filter {
@@ -1522,68 +1523,6 @@ a.filter.dark:hover {
 .call-to-action .button-large {
 	margin-bottom:0;
 }
-@media screen and (min-width: 1000px) {
-	.shape1 {
-	    background-color: #fbf8fd;
-	    border-corner-shape: scoop;
-	    border-radius: 0 100%;
-	    width: 200px;
-	    height: 200px;
-	}
-	.shape2 {
-	    background-color:rgba(251, 248, 253, 0.6);
-	    border-radius: 100% 0;
-	    height: 200px;
-	    left: 210px;
-	    position: absolute;
-	    top: 1008px;
-	    width: 200px;
-	}
-	.shape3 {
-	    background-color:rgba(251, 248, 253) ;
-	    border-radius: 0 100%;
-	    height: 200px;
-	    left: 210px;
-	    position: absolute;
-	    width: 200px;
-	}
-	.shape4 {
-	    background-color:#fbf8fd;
-	    border-radius: 100% 0;
-	    height: 200px;
-	    position: absolute;
-	    width: 200px;
-	}
-	.shape5 {
-	    background-color: black;
-	    border-radius: 0 100%;
-	    height: 300px;
-	    left: 207px;
-	    position: absolute;
-	    /* top: 204px; */
-	    width: 15px;
-	    /* z-index: -1; */
-	}
-	.shape6 {
-	    background-color:rgba(251, 248, 253);
-	    border-radius: 100% 0;
-	    height: 200px;
-	    left: 210px;
-	    position: absolute;
-	    top: 2185px;
-	    width: 200px;
-	}
-		/* .shape7 {
-		    background-color:rgba(251, 248, 253, 0.3) ;
-				border-radius: 0 100%;
-				height: 200px;
-				left: 210px;
-				position: absolute;
-				width: 200px;
-				top:1000px;
-		} */
-}
-
 
 /* 2.8 About us */
 .about-us {
