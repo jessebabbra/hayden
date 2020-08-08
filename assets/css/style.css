@@ -738,7 +738,7 @@ hr {
 	font-weight:700;
 	/* color:#ffffff; */
 	color: #fe019a;
-	 /* -webkit-text-stroke: 0.1px white; */
+	 -webkit-text-stroke: 0.05px white;
 	letter-spacing:0.2em;
 	text-transform:uppercase;
 	line-height:50px;
