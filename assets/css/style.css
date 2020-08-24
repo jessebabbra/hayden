@@ -146,7 +146,7 @@ h5.light,
 h6.light,
 p.light,
 span.light {
-	color:#fe019a;
+	color:#fff;
 }
 
 a.normal,
@@ -202,7 +202,7 @@ h1.large-text {
 
 h1.fittext {
 	margin-bottom:10px;
-	font-size:120px;
+	font-size:80px;
 	font-weight:700;
 	line-height:100%;
 	/* -webkit-text-stroke-width: 1px;
@@ -225,7 +225,7 @@ a:focus {
 }
 
 a {
-	color:#7a7a7a;
+	color:#fff;
 }
 
 a:hover {
@@ -317,7 +317,7 @@ i.large-icon:hover {
 	text-transform:uppercase;
 	padding:8px 14px 7px;
 	border-radius:3px;
-	margin:25px 5px;
+	/* margin:25px 5px; */
 }
 
 .button-large {
@@ -736,9 +736,9 @@ hr {
 
 .text-ticker li {
 	font-weight:700;
-	/* color:#ffffff; */
-	color: #fe019a;
-	 -webkit-text-stroke: 0.05px white;
+	color:#ffffff;
+	/* color: #fe019a; */
+	 /* -webkit-text-stroke: 0.05px white; */
 	letter-spacing:0.2em;
 	text-transform:uppercase;
 	line-height:50px;
